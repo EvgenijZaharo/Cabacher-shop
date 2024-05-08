@@ -1,0 +1,154 @@
+@media (max-width: 780px) {
+ .vl{
+   display: none;
+ }
+  header{
+    height: 56px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+    align-items: center;
+    scroll-snap-align: start;
+    display: flex;
+  }
+  .main-banner-text{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 2%;
+    margin-bottom: 5px;
+    height: auto;
+  }
+  .main-banner{
+    position: relative;
+  }
+  .header_fixed{
+    top: 0;
+    transform: translateY(0%);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    scroll-snap-align: start;
+
+  }
+  .right-slidebar{
+    padding-top: 20px;
+  }
+  .main-title{
+    align-self:auto;
+  }
+  .slide-up {
+    transform: translateY(-100%); /* Поднимаем header вверх */
+  }
+  svg{
+    max-width: 30%;
+    padding: 10px;
+    margin-right: 35%;
+  }
+  li svg{
+    width: 50px;
+  }
+  nav{
+    margin: 0;
+  }
+  nav a{
+    margin: 3px 5% 0 5px;
+  }
+  .header-left{
+    display: none;
+  }
+  main{
+    flex-direction: column;
+  }
+  ul {
+    text-align: center; /* Выравнивание текста и иконок по центру */
+  }
+
+  li {
+    display: block;
+    margin: 0 10px; /* Отступы справа и слева для разделения элементов списка */
+  }
+
+  li svg {
+    vertical-align: middle; /* Выравнивание SVG по вертикали */
+    margin-right: 5px; /* Отступ справа от иконки до текста */
+  }
+  .mobile-menu {
+    position: fixed;
+    top: 55px;
+    left: -100%;
+    width: 250px; /* Ширина вашего меню */
+    height: calc(100% - 60px); /* Высота меню, исключая высоту header */
+    background: white;
+    z-index: 100;
+    transition: left 0.3s; /* Анимация появления меню */
+    display: block;
+  }
+
+  .mobile-menu.open {
+    left: 0; /* Показать меню */
+  }
+
+  /* Стили для кнопки меню */
+  .menu-btn {
+    z-index: 101; /* Чтобы кнопка была поверх меню */
+  }
+
+  .banner{
+    display: none;
+  }
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .main-banner img{
+    height: 150%;
+  }
+  .item-box, .brand-button{
+    width: 17%;
+  }
+  .item-box{
+    height: max-content;
+  }
+  .item-image img{
+  }
+  .menu-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+
+  }
+
+  .menu-btn span,
+  .menu-btn span::before,
+  .menu-btn span::after {
+    display: block;
+    width: 2rem;
+    height: 0.25rem;
+    background: #333;
+    border-radius: 10px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .menu-btn span::before {
+    content: '';
+    position: absolute;
+    top: -0.5rem;
+  }
+
+  .menu-btn span::after {
+    content: '';
+    position: absolute;
+    top: 0.5rem;
+  }
+}
+@media (max-width: 456px) {
+  .main-banner-text p{
+    display: none;
+  }
+}

@@ -1,0 +1,106 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 20px 20px 5%;
+}
+
+.phone {
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  min-width: 228px;
+  max-height: 251px;
+  flex-basis: 30%;
+}
+
+.phone:hover {
+  /*transform: translateY(-5px);*/
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.product-image{
+  display: flex;
+  justify-content: space-around;
+}
+.product-image img {
+  width: auto;
+  height: 100px;
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 10px 15px;
+  background-color: #f7f7f7;
+  border-top: 1px solid #eaeaea;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #666;
+  padding: 10px 15px;
+  background-color: #fff;
+  text-align: right;
+  justify-content: space-between;
+  display: flex;
+}
+.product-button {
+  display: flex; /* Добавляем Flexbox */
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  margin-right: 10px;
+  flex-basis: 20%;
+  background: #dfdfdf40;
+  border-radius: 12px;
+  font-size: small;
+  text-decoration: none;
+  color: #409cff;
+  padding: 5px 0; /* Добавляем вертикальный отступ для увеличения высоты кнопки */
+}
+
+.phones{
+  flex-basis: 87%;
+}
+.product-button:hover{
+  background: #dfdfdf92;
+}
+.sorting-menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 5%;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sorting-menu select,
+.sorting-menu label {
+  margin: 0 10px;
+}
+
+.sorting-menu select {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.sorting-menu input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.sorting-menu label {
+  cursor: pointer;
+}
+
+/* Стиль для активного состояния чекбокса */
+.sorting-menu input[type="checkbox"]:checked + span {
+  color: #d35400;
+  font-weight: bold;
+}

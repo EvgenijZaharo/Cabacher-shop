@@ -1,0 +1,160 @@
+{
+  "phones": [
+    {
+      "brand": "Samsung",
+      "name": "Galaxy S23",
+      "release_year": 2023,
+      "price": "2020 BYN",
+      "src": "./img/s23.jpg",
+      "url": "https://www.samsung.com/ru/smartphones/galaxy-s23/specs/",
+      "characteristic": {
+        "gpu": "Adreno 640",
+        "RAM": "8GB",
+        "memory": "128GB"
+      }
+    },
+    {
+      "brand": "Samsung",
+      "name": "Galaxy S23+",
+      "release_year": 2023,
+      "price": "2299 BYN",
+      "src": "./img/samsung_galaxy_s24_ultra.jpg",
+      "url": "https://www.samsung.com/ru/smartphones/galaxy-s23/specs/",
+      "characteristic": {
+        "gpu": "Adreno 640",
+        "RAM": "12GB",
+        "memory": "256GB"
+      }
+    },
+    {
+      "brand": "Samsung",
+      "name": "Galaxy S23 Ultra",
+      "release_year": 2023,
+      "price": "2599 BYN",
+      "src": "./img/samsung2.png",
+      "url": "https://www.samsung.com/ru/smartphones/galaxy-s23/specs/",
+      "characteristic": {
+        "gpu": "Adreno 640",
+        "RAM": "16GB",
+        "memory": "512GB"
+      }
+    },
+    {
+      "brand": "Samsung",
+      "name": "Galaxy S24",
+      "release_year": 2024,
+      "price": "3239 BYN",
+      "src": "./img/s24.jpg",
+      "url": "https://www.samsung.com/ru/smartphones/galaxy-s24/specs/",
+      "characteristic": {
+        "gpu": "Adreno 650",
+        "RAM": "8GB",
+        "memory": "128GB"
+      }
+    },
+    {
+      "brand": "Samsung",
+      "name": "Galaxy S24+",
+      "release_year": 2024,
+      "price": "3969 BYN",
+      "src": "./img/s20fe.jpeg",
+      "url": "https://www.samsung.com/ru/smartphones/galaxy-s24/specs/",
+      "characteristic": {
+        "gpu": "Adreno 650",
+        "RAM": "12GB",
+        "memory": "256GB"
+      }
+    },
+    {
+      "brand": "Samsung",
+      "name": "Galaxy S24 Ultra",
+      "release_year": 2024,
+      "price": "4255 BYN",
+      "src": "./img/sultra.png",
+      "url": "https://www.samsung.com/ru/smartphones/galaxy-s24/specs/",
+      "characteristic": {
+        "gpu": "Adreno 650",
+        "RAM": "16GB",
+        "memory": "512GB"
+      }
+    },
+    {
+      "brand": "Apple",
+      "name": "iPhone 15",
+      "release_year": 2023,
+      "price": "4649 BYN",
+      "src": "./img/i15.jpg",
+      "url": "https://www.apple.com/iphone-15/",
+      "characteristic": {
+        "gpu": "A15 Bionic",
+        "RAM": "6GB",
+        "memory": "128GB"
+      }
+    },
+    {
+      "brand": "Apple",
+      "name": "iPhone 15 Pro",
+      "release_year": 2023,
+      "price": "5249 BYN",
+      "src": "./img/i15p.jpg",
+      "url": "https://www.apple.com/iphone-15-pro/",
+      "characteristic": {
+        "gpu": "A15 Bionic",
+        "RAM": "6GB",
+        "memory": "256GB"
+      }
+    },
+    {
+      "brand": "Apple",
+      "name": "iPhone 15 Pro Max",
+      "release_year": 2023,
+      "price": "5549 BYN",
+      "src": "./img/i15pp.png",
+      "url": "https://catalog.onliner.by/mobile/apple/iphone15promaxnt",
+      "characteristic": {
+        "gpu": "A15 Bionic",
+        "RAM": "6GB",
+        "memory": "512GB"
+      }
+    },
+    {
+      "brand": "Apple",
+      "name": "iPhone 14",
+      "release_year": 2022,
+      "price": "4349 BYN",
+      "src": "./img/i14.jpeg",
+      "url": "https://www.apple.com/shop/buy-iphone/iphone-14",
+      "characteristic": {
+        "gpu": "A14 Bionic",
+        "RAM": "4GB",
+        "memory": "64GB"
+      }
+    },
+    {
+      "brand": "Apple",
+      "name": "iPhone 14 Pro",
+      "release_year": 2022,
+      "price": "4949 BYN",
+      "src": "./img/i14p.png",
+      "url": "https://catalog.onliner.by/mobile/apple/iphone14pro",
+      "characteristic": {
+        "gpu": "A14 Bionic",
+        "RAM": "6GB",
+        "memory": "128GB"
+      }
+    },
+    {
+      "brand": "Apple",
+      "name": "iPhone 14 Pro Max",
+      "release_year": 2022,
+      "price": "5249 BYN",
+      "src": "./img/apple_iphone_15.jpg",
+      "url": "https://catalog.onliner.by/mobile/apple/iphone14pm",
+      "characteristic": {
+        "gpu": "A14 Bionic",
+        "RAM": "6GB",
+        "memory": "256GB"
+      }
+    }
+  ]
+}
