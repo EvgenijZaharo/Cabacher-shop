@@ -83,9 +83,10 @@ header {
   top: 0;
   position: sticky;
   z-index: 5;
-  margin: 15px 15px;
+  margin-bottom: 15px;
 }
 svg{
+  padding: 15px;
   max-width: 15%;
   min-width: 150px;
 }

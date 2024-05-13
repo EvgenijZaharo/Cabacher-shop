@@ -59,3 +59,10 @@ setInterval(function () {
     currentState = isDesktop;
   }
 }, 500); // Проверять каждые 500 миллисекунд
+document.addEventListener('DOMContentLoaded', function() {
+  var sortingMenu = document.querySelector('.sorting-menu');
+  var mainContent = document.querySelector('main');
+  if (window.innerWidth <= 780) { // Используйте значение ширины экрана, соответствующее вашему дизайну
+    mainContent.insertBefore(sortingMenu, mainContent.firstChild);
+  }
+});

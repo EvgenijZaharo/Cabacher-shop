@@ -32,8 +32,15 @@
         </linearGradient>
       </defs>
     </svg>
-    <div class="header-left">
-      <h1>Главная</h1>
+    <div class="sorting-menu">
+      <label for="sortOptions">Выберите тип сортировки: </label>
+      <select id="sortOptions" onchange="sortItems()">
+        <option value="priceAsc">Цена: возрастание</option>
+        <option value="priceDesc">Цена: убывание</option>
+        <option value="age">Сначала новые</option>
+      </select>
+      <label><input type="checkbox" id="appleCheckbox" onchange="filterByBrand()"> Apple</label>
+      <label><input type="checkbox" id="samsungCheckbox" onchange="filterByBrand()"> Samsung</label>
     </div>
   </header>
 
@@ -54,20 +61,8 @@
         </button>
       </div>
     </section>
-     <div class="phones">
-       <div class="sorting-menu">
-         <label for="sortOptions">Выберите тип сортировки: </label>
-         <select id="sortOptions" onchange="sortItems()">
-           <option value="priceAsc">Цена: возрастание</option>
-           <option value="priceDesc">Цена: убывание</option>
-           <option value="age">Сначала новые</option>
-         </select>
-         <label><input type="checkbox" id="appleCheckbox" onchange="filterByBrand()"> Apple</label>
-         <label><input type="checkbox" id="samsungCheckbox" onchange="filterByBrand()"> Samsung</label>
-       </div>
        <div class="product-container">
        </div>
-     </div>
     </main>
   <footer>
     <div class="footer-container">
