@@ -156,5 +156,56 @@
         "memory": "256GB"
       }
     }
+  ],
+  "accessories": [
+    {
+      "name": "Кейсы для Samsung",
+      "type": "case",
+      "price": "50 BYN",
+      "src": "./img/CaseS.png",
+      "url": "https://www.samsung.com/us/smartphones/galaxy-s24-ultra/accessories/",
+      "characteristics": ["Samsung S24 Ultra", "Samsung S24"]
+    },
+    {
+      "name": "Кейсы для Pixel",
+      "type": "case",
+      "price": "60 BYN",
+      "src": "./img/CaseP.png",
+      "url": "https://www.tech21.com/products/evo-check-google-pixel-8-case-midnight-blue",
+      "characteristics": ["Google Pixel 8", "Google Pixel 8a"]
+    },
+    {
+      "name": "Кейсы для Apple",
+      "type": "case",
+      "price": "70 BYN",
+      "src": "./img/CaseI.jpg",
+      "url": "https://www.apple.com/ru/shop/accessories/all",
+      "characteristics": ["Iphone 15 pro", "Iphone 15 plus"]
+    },
+    {
+      "name": "Кейсы для Xiaomi",
+      "type": "case",
+      "price": "65 BYN",
+      "src": "./img/CaseX.jpg",
+      "url": "https://sp-connect.eu/products/phone-case-xiaomi?variant=46883777085773",
+      "characteristics": ["Xiaomi 14", "Xiaomi 14T"]
+    },
+    {
+      "name": "Повербанк Xiaomi",
+      "type": "power",
+      "price": "120 BYN",
+      "src": "./img/powerX.webp",
+      "url": "https://mi.by/catalog/aksessuary_i_gadzhety/vneshnie_akkumulyatory/",
+      "characteristics": ["Объём: 20000mAh"]
+    },
+    {
+      "name": "Повербанк Anker",
+      "type": "power",
+      "price": "150 BYN",
+      "src": "./img/powerA.png",
+      "url": "https://catalog.onliner.by/portablecharger/anker",
+      "characteristics": ["Объём: 26800mAh"]
+    }
   ]
+
 }

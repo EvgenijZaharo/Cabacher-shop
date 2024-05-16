@@ -36,7 +36,7 @@ function addPhonesToContainer(phones) {
     productImageDiv.appendChild(characteristicsList);
 
     const phoneDiv = document.createElement('div');
-    phoneDiv.className = 'phone';
+    phoneDiv.className = 'product';
     phoneDiv.id = `${phone.brand}-${phone.name.replace(/\s+/g, '-')}`;
     phoneDiv.appendChild(productImageDiv);
     phoneDiv.appendChild(titleDiv);
